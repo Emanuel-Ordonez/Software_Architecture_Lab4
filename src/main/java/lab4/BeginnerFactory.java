@@ -1,11 +1,13 @@
 package lab4;
 
-public class BeginnerFactory {
-    public Weapon_IF createWeapon(String weapon){
+public class BeginnerFactory implements FactoryModeIF{
+    @Override
+    public WeaponIF createWeapon(String weapon){
       return null;
     }
     
-    public Character_IF createCharacter(String weapon){
+    @Override
+    public CharacterIF createCharacter(String weapon){
       return null;
     }
 }

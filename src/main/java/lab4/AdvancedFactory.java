@@ -1,11 +1,14 @@
 package lab4;
 
-public class AdvancedFactory {
-    public Weapon_IF createWeapon(String weapon){
-      return null;
+public class AdvancedFactory implements FactoryModeIF{
+    @Override
+    public WeaponIF createWeapon(String weapon){
+        return null;
     }
     
-    public Character_IF createCharacter(String weapon){
-      return null;
+    @Override
+    public CharacterIF createCharacter(String weapon){
+        return null;
+      
     }
 }

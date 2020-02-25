@@ -1,6 +1,6 @@
 package lab4;
 
-public interface Character_IF {
+public interface CharacterIF {
     public abstract void setCharacter(String y);
     public abstract String getCharacter();
 }
